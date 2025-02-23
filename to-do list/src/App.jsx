@@ -52,7 +52,9 @@ function App() {
     return <Skeleton variant="rectangular" width={210} height={118} />;
   return (
     <div className={classes.mainWrapper}>
-      <h1 className={classes.headerTitle}>Simple to do list app</h1>
+      <h1 className={classes.headerTitle}>
+        Simple to do list app using the api
+      </h1>
 
       <div className={classes.todoListWrapper}>
         {todoList && todoList.length > 0
